@@ -1,0 +1,6 @@
+<H2>Vacancy</h2>
+<form action="vacancy/new" method="post">
+{% csrf_token %}
+<div>Description:  <input id="description" name="description" type="text"/></div>
+<input type="submit" value="Send">
+</form>    
